@@ -1,0 +1,4 @@
+An example of a visualization tool I made with a quick turnaround time (~1 day).
+
+To run: java -jar GPSPlotter.jar &
+Load the radec.txt file
