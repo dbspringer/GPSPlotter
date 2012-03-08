@@ -66,7 +66,7 @@ public class GPSPlotterGUI extends JFrame {
 					PlotOrientation.VERTICAL,
 					true, 
 					true,
-					false);
+					false );
 
 	/**
 	 * Properties for the GUI, default located in inc/application.properties
