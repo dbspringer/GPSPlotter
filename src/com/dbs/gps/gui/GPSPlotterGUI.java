@@ -114,7 +114,7 @@ public class GPSPlotterGUI extends JFrame {
 	 * @param properties Properties for the GUI
 	 */
 	public GPSPlotterGUI(Properties properties) {
-		super("MSS GPS Plotter");
+		super("GPS Plotter");
 		this.properties = properties;
 		
 		URL logoURL = getClass().getResource("/img/logo.gif");

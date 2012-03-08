@@ -59,8 +59,8 @@ public class SelectIdDialogue extends JDialog {
 		final JPanel topButtonPanel = new JPanel();
 		final JButton allButton = new JButton("All");
 		final JButton noneButton = new JButton("None");
-		allButton.setPreferredSize(new Dimension(50,20));
-		noneButton.setPreferredSize(new Dimension(65,20));
+		allButton.setPreferredSize(new Dimension(80,20));
+		noneButton.setPreferredSize(new Dimension(80,20));
 		topButtonPanel.add(allButton);
 		topButtonPanel.add(noneButton);
 		panel.add(topButtonPanel);
@@ -120,7 +120,7 @@ public class SelectIdDialogue extends JDialog {
 		
 		final JPanel buttonPanel = new JPanel(); 
 		final JButton selectButton = new JButton("Select");
-		selectButton.setPreferredSize(new Dimension(75,20));
+		selectButton.setPreferredSize(new Dimension(90,20));
 		buttonPanel.add(selectButton);
 		panel.add(buttonPanel);
 		selectButton.addActionListener(new ActionListener() {
